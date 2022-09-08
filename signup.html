@@ -9,34 +9,35 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="Airbnb-CSS.css" rel="stylesheet" />
   </head>
   <body>
     <!-- background image -->
-    <section class="bg-image">
-      <!-- HTML Validator suggested a h2...make fully transparent or delete -->
-      <h2>Login to Airbnb</h2>
-      <img
-        src="/Users/fastfreddie-safe/Documents/GitHub/project-airbnb-html-start/images/thailand.jpg"
-        alt="/Users/fastfreddie-safe/Documents/GitHub/project-airbnb-html-start/images/thailand-alt.jpeg"
-      />
-    </section>
-    <div class="login-or-signup">
-      <!-- form input email, password, button, "Sign-up" link -->
-      <form class="container">
-        <!-- label and input email-->
-        <h3>airbnb</h3>
-        <img
-          scr="/Users/fastfreddie-safe/Documents/GitHub/project-airbnb-html-start/images/logo-airbnb.png"
-        />
-        <label><b>Email</b></label>
-        <input type="text" placeholder="" />
-        <!-- label + input password -->
-        <label><b>Password</b></label>
-        <input type="password" placeholder="" />
-        <!-- button: login/submit -->
-        <button type="submit" class="btn">Login</button>
-        <!-- text "New to Airbnb?" link to "Signup" -->
-      </form>
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center">
+        <!-- form/ CARD input email, password, button, "Sign-up" link -->
+        <div class="card text-left" style="width: 18rem;">
+          <div class="card-body">
+            <form class="container">
+              <img
+                src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png"
+                alt=""
+              />
+              <label><b>Email</b></label>
+              <input type="text" placeholder="" />
+              <!-- label + input password -->
+              <label><b>Password</b></label>
+              <input type="password" placeholder="" />
+              <!-- button: login/submit -->
+              <button type="submit" class="btn"></button>
+              <a href="#" class="btn btn-primary">Login</a>
+              <!-- text "New to Airbnb?" link to "Signup" -->
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- label and input email-->
     </div>
   </body>
 </html>
